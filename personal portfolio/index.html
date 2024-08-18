@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio</title>
+    <script src="https://kit.fontawesome.com/9713edc0f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="#services"><b>services</b></a></li>
+                    <li><a href="#portfolio"><b>portfolio</b></a></li>
+                    <li><a href="#contact"><b>Reach me </b></a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="head-text">
+                <p><b>Java Full Stack <span>Developer</span></b></p>
+                <H1>HI, THIS IS <span>ARCH</span><BR>FROM HYDERABAD</H1>
+            </div>
+        </div>
+    </div>
+    <!---------about------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="portimages/dsl.jpg" >
+            </div>
+            <div class="about-col2">
+                <h1 class="subtitle">About me</h1>
+                <p> Ambitious recent graduate with a keen interest in seeking entry-level position to apply skils
+                    in Java, HTML, CSS, JavaScript, My SQL and contribute effectively to organizational goals
+                    through dedication and continuous learning</p>
+                <div class="tabtitles">
+                    <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('Experience')">Experience</p>
+                    <p class="tablinks" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tabcontents activetag" id="skills">
+                    <ul>
+                        <li><span>Front-End</span><BR>HTML | CSS</li>
+                            <li><span>Back-End</span><BR>JAVA | MY SQL</li>
+                                <li><span>Scirpting Languages</span><BR>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="tabcontents" id="Experience">
+                    <ul>
+                        <li><span>2024 - present</span><BR>designing web/App interfaces at Codegnan</li>
+                        
+                    </ul>
+                </div>
+                <div class="tabcontents" id="Education">
+                    <ul>
+                        <li><span>2024</span><BR>Btech from SMSK</li>
+                            <li><span>2020</span><BR>Intermediate from NJC</li>
+                                <li><span>2018</span><BR>SSC from AVHS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!-------services----->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My services</h1>
+        <div class="serviceslist">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>Web design, also known as website design, is the creative process of crafting the visual elements that make up a website. It’s like painting a canvas, but instead of using brushes and pigments, web designers use colors, fonts, layouts, and other design elements to create an engaging and user-friendly online experience</p>
+                <a href="#">Learn more</a>
+            
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI design</h2>
+                <p>UI design, also known as User-interface design, is the creative process of crafting the visual elements that make up a website. It’s like painting a canvas, but instead of using brushes and pigments, web designers use colors, fonts, layouts, and other design elements to create an engaging and user-friendly online experience</p>
+                <a href="#">Learn more</a>
+            
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>UI design</h2>
+                <p>UI design, also known as User-interface design, is the creative process of crafting the visual elements that make up a website. It’s like painting a canvas, but instead of using brushes and pigments, web designers use colors, fonts, layouts, and other design elements to create an engaging and user-friendly online experience</p>
+                <a href="#">Learn more</a>
+            
+            </div>
+
+        </div>
+    </div>
+</div>
+<!---------portfolio----------------------->
+<div id="portfolio">
+    <div class="container"><h1 class="subtitle">
+        My Work
+    </h1>
+    <div class="worklist">
+        <div class="work">
+            <img src="/portimages/bogatha.jpg">
+            <div class="layer">
+                <h3>At Bogatha Waterfalls</h3>
+                <p>A memory from my Btech final year 2024</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="/portimages/utm.jpg">
+            <div class="layer">
+                <h3>At Under The Moon</h3>
+                <p>From a nearby beautiful lake</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="/portimages/smsk.jpg">
+            <div class="layer">
+                <h3>At Samskruti college of engineering and technology</h3>
+                <p>Nearby the college campus</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="https://google.com" class="btn">see more</a>
+</div>
+</div>
+<!--contact------------------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pashaarif1787@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 9573039855</p>
+            <div class="social">
+                <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="portimages/Arif resume updated.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="text" name="email" placeholder="Your mail" required>
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyrights <i class="fa-solid fa-copyright"></i> belongs to Monarch22</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tablinks");
+    var tabcontents = document.getElementsByClassName("tabcontents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("activetag");
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("activetag")
+}
+</script> 
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-250px";
+    }
+</script>  
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwuhIAgTVJ1RY0Zjmhcl_RhkJdi3JB-RdTRvuetcm5TERJ5U80CLw8mtOcsVJPIx-Kg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            mag.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
